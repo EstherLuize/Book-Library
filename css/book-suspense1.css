@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #555;
+}
+::-webkit-scrollbar-thumb {
+background: #000000;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body{
+    background: #201e1e;
+}
+
+.logo{
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+    background: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+  
+
+body{
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+}
+
+.texto{
+    color: #fff;
+    text-align: justify;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
